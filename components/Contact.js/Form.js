@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Button from '../../elements/Button';
 
 const isNotEmpty = value => value.trim() !== '';
-const isEmail = value => value.includes('/^S+@S+.S+$/');
+const isEmail = value => value.includes('@');
 const isComment = value => value.trim() !== '';
 
 const Form = () => {
