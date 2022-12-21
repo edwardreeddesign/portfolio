@@ -15,11 +15,11 @@ const ProjectBranding = ({ title, desc1, desc2 }) => {
   const [element, controls] = useScroll();
   return (
     <Wrapper
-      variants={fade2}
-      initial="hidden"
-      animate={controls}
-      ref={element}
-      exit="exit"
+    // variants={fade2}
+    // initial="hidden"
+    // animate={controls}
+    // ref={element}
+    // exit="exit"
     >
       <H2 align="center" margin="0 0 1rem 0" variants={titleAnim}>
         {title}
