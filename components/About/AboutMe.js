@@ -81,9 +81,10 @@ const AboutMe = () => {
           that will help them get more business.
         </P>
         <P color="dark1" height="large">
-          I have always had the ability to see what works and doesn't work for
-          the companies I worked for. I can changes that are needed for them to
-          succeed and what they are doing wrong, that is losing them business.
+          I have always had the ability to see what works and doesn&apos;t work
+          for the companies I worked for. I can changes that are needed for them
+          to succeed and what they are doing wrong, that is losing them
+          business.
         </P>
         <P color="dark1" height="large">
           When I work for a company, I always make it part of my family. I go

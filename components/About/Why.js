@@ -35,8 +35,8 @@ const Why = () => {
       </P>
       <P color="dark1" height="large">
         I see small businesses choosing to use templates to create a website.
-        That's fine, if you want to be the same, and have a 'cookie cutter'
-        website. One that you will see everywhere.
+        That&apos;s fine, if you want to be the same, and have a &apos;cookie
+        cutter&apos; website. One that you will see everywhere.
       </P>
       <P color="dark1" height="large">
         By choosing a person that actually creates sites from scratch,
