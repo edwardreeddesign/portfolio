@@ -10,10 +10,8 @@ import Button from '../../elements/Button';
 import { projects } from '../../helpers/ProjectsData';
 
 const ProjectScreen = () => {
-  console.log(projects);
   const router = useRouter();
   const { slug } = router.query;
-  console.log(slug);
 
   const project = projects.find(project => project.url === slug);
 
@@ -39,7 +37,7 @@ const ProjectScreen = () => {
           </H3>
         </Link>
         <H1 variants={fade} margin="1rem 2rem" weight="bold" color="light1">
-          {project.title}
+          {project?.title}
         </H1>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <ProjectDetail project={project} />
