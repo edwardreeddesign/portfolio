@@ -20,7 +20,7 @@ const ProjectImage = ({ img }) => {
       <H1 weight="bold" margin="1rem 0 2rem 0">
         Design
       </H1>
-      <img src={img} alt="project image" />
+      <img src={img} alt="project image" lazy />
     </StyledImage>
   );
 };

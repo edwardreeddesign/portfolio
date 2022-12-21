@@ -46,7 +46,7 @@ const About = () => {
             taught myself Web Development.
           </p>
         </Text>
-        <Link href="/">
+        <Link href="/about">
           <Button secondary>Learn More About Me</Button>
         </Link>
       </Background>
