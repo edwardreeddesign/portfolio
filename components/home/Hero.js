@@ -6,6 +6,7 @@ import Button from '../../elements/Button';
 import { motion } from 'framer-motion';
 import Wave from '../../elements/Wave';
 import { titleAnim, fade, photoAnim } from '../../elements/Animations';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -54,10 +55,14 @@ const Hero = () => {
 
           <Buttons>
             <motion.div variants={fade}>
-              <Button primary> LET&apos;S WORK TOGETHER</Button>
+              <Link href="/contact">
+                <Button primary> LET&apos;S WORK TOGETHER</Button>
+              </Link>
             </motion.div>
             <motion.div variants={fade}>
-              <Button secondary>VIEW MY WORK</Button>
+              <Link href="/about">
+                <Button secondary>VIEW MY WORK</Button>
+              </Link>
             </motion.div>
           </Buttons>
         </Intro>
