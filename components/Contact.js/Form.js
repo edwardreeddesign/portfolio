@@ -76,7 +76,7 @@ const Form = () => {
           name="contact"
           className="form"
           method="post"
-          action="/SubmitMessage"
+          action="/submit-message"
         >
           <input type="hidden" name="form-name" value="contact" />
           <ControlGroup>
