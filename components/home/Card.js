@@ -3,7 +3,7 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { wrap } from 'popmotion';
-import { tech } from '../../helpers/tech';
+import { tech } from '../../helpers/Tech';
 import { H2, P, scrollReveal } from '../../elements';
 import { useScroll } from '../../helpers/UseScroll';
 
