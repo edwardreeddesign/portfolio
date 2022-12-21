@@ -8,11 +8,11 @@ const ProjectGroupImage = ({ img }) => {
   const [element, controls] = useScroll();
   return (
     <StyledGroupImg
-      variants={fade}
-      initial="hidden"
-      animate={controls}
-      ref={element}
-      exit="exit"
+    // variants={fade}
+    // initial="hidden"
+    // animate={controls}
+    // ref={element}
+    // exit="exit"
     >
       <img src={img} alt="group image" />
     </StyledGroupImg>

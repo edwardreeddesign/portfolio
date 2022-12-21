@@ -8,11 +8,11 @@ const ProjectImage = ({ img }) => {
   const [element, controls] = useScroll();
   return (
     <StyledImage
-      variants={fade2}
-      initial="hidden"
-      animate={controls}
-      ref={element}
-      exit="exit"
+    // variants={fade2}
+    // initial="hidden"
+    // animate={controls}
+    // ref={element}
+    // exit="exit"
     >
       <H4 size="small" weight="medium">
         UI & Components
