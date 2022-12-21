@@ -16,10 +16,10 @@ const ProjectDetail = ({ project }) => {
     <>
       {project && (
         <Main
-          variants={pageAnimation}
-          initial="hidden"
-          animate="show"
-          exit="exit"
+        // variants={pageAnimation}
+        // initial="hidden"
+        // animate="show"
+        // exit="exit"
         >
           <ProjectHero project={project} />
           <ProjectDescription project={project} />
